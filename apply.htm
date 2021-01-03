@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Apply</title>
+    <link rel="stylesheet" href="normalise.css">
+      <link rel="stylesheet" href="theme.css">
+      <link rel="stylesheet" href="form.css">
+  </head>
+  <body>
+    <div class="container">
+
+        <h1>Company Name</h1>
+        <h2>Apply for Title</h2>
+        <h3>Location • Full-time</h3>
+        <button>Apply</button>
+
+        <div class="content">
+
+          <form method="POST" action="">
+
+            <div class="row">
+                <h5>Your Name</h5>
+                <input id="name" name="name" type="text" required="" value="" placeholder="e.g. Jane Smith">
+            </div>
+            <div class="row">
+                <h5>Your Email</h5>
+                <input id="email" name="email" type="text" required="" value="" placeholder="e.g. jane@example.com">
+              </div>
+                <div class="row">
+                  <h5>Upload Your Resume</h5>
+                  <input class="input-file" id="resume" name="resume" type="file" accept=".docx, .rtf, .doc, .htm, .html, .txt, application/pdf, application/rtf, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document, text/plain" placeholder="">
+                  <label for="resume" class="upload"> Upload My Resume</label>
+              </div>
+              <div class="row">
+                  <h5>Cover Letter (Optional)</h5>
+                  <p >Send a message to the hiring manager about why you're a great fit for this job.</p>
+                  <textarea class="margin-bottom-5" id="body" name="body" rows="10" value="" placeholder="Type your cover letter here...">
+                </textarea>
+            </div>
+            <div class="row">
+                    <h5>Your Phone Number</h5>
+                    <input id="phone" name="phone" type="text" value="" placeholder="e.g. 01234 5678910">
+                  </div>
+            <div class="row">
+                <input type="submit" value="Submit Application">
+            </div>
+            </form>
+          </form>
+
+        </div>
+
+
+</div>
+  </body>
+</html>
